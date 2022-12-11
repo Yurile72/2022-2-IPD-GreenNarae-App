@@ -33,7 +33,8 @@
     <div class="menu-bar-info-2">
       <v-list-item>
         <v-list-item-content>
-          <a>포인트</a><a>{{user.point}}</a><a>P</a>
+          <a>포인트</a><a>{{ user.point }}</a
+          ><a>P</a>
           <!-- <hr class="divider" /> -->
         </v-list-item-content>
       </v-list-item>
@@ -42,7 +43,9 @@
     <v-list dense nav>
       <v-list-item v-for="item in items" :key="item.title" link>
         <v-list-item-content>
-          <v-list-item-title>{{ item.title }}</v-list-item-title>
+          <a :href="item.src" style="color: black; text-decoration: none">
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </a>
         </v-list-item-content>
       </v-list-item>
     </v-list>
@@ -55,15 +58,16 @@ export default {
     drawer: false,
     group: null,
     items: [
-      { title: "멤버십 안내" },
-      { title: "이벤트" },
-      { title: "매장 찾기" },
-      { title: "선물하기" },
-      { title: "전자영수증" },
-      { title: "공지사항" },
-      { title: "이용안내" },
-      { title: "자주 묻는 질문" },
-      { title: "설정" },
+      { title: "멤버십 안내", src: "#" },
+      { title: "이벤트", src: "#" },
+      { title: "키워드 정하기", src: "VillageSetup" },
+      { title: "매장 찾기", src: "#" },
+      { title: "선물하기", src: "#" },
+      { title: "전자영수증", src: "#" },
+      { title: "공지사항", src: "#" },
+      { title: "이용안내", src: "#" },
+      { title: "자주 묻는 질문", src: "#" },
+      { title: "설정", src: "#" },
     ],
     right: null,
   }),

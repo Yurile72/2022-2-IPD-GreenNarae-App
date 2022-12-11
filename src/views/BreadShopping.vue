@@ -2,7 +2,7 @@
   <v-card
     max-width="448"
     height="900"
-    class="mx-auto rounded-xl"
+    class="mx-auto"
     color="#F2F0E7"
     flat
   >

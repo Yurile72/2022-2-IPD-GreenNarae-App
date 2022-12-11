@@ -1,11 +1,5 @@
 <template>
-  <v-card
-    max-width="448"
-    height="900"
-    class="mx-auto rounded-xl"
-    color="#F2F0E7"
-    flat
-  >
+  <v-card max-width="448" height="900" class="mx-auto" color="#F2F0E7" flat>
     <v-layout>
       <SubBar />
       <v-main>
@@ -190,7 +184,6 @@ export default {
   opacity: 0.6;
   margin: 10px;
   justify-content: center;
-
 }
 
 .complete {
