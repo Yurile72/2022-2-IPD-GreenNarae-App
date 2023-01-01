@@ -59,8 +59,9 @@ export default {
     group: null,
     items: [
       { title: "멤버십 안내", src: "#" },
-      { title: "이벤트", src: "#" },
+      { title: "이벤트", src: "Stamp" },
       { title: "키워드 정하기", src: "VillageSetup" },
+      { title: "픽업박스", src: "Pickup" },
       { title: "매장 찾기", src: "#" },
       { title: "선물하기", src: "#" },
       { title: "전자영수증", src: "#" },

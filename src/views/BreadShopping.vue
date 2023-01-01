@@ -10,6 +10,14 @@
       <SubBar />
       <v-main>
         <!-- Write Here -->
+        <span>{{this.name}} 님을 위한 성심의의 빵 추천</span>
+        <!-- 빵 추천 -->
+        <div>
+
+        </div>
+        <!-- 빵 카테고리 -->
+
+        <!-- 빵 리스트 -->
       </v-main>
     </v-layout>
   </v-card>
@@ -20,7 +28,9 @@ import SubBar from "../components/SubBar";
 export default {
   name: "App",
   components: { SubBar },
-  data: () => ({}),
+  data: () => ({
+    bread
+  }),
 };
 </script>
 

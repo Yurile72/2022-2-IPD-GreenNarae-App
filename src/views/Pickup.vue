@@ -7,13 +7,13 @@
     flat
   >
     <v-layout>
-      <v-dialog v-model="dialog" width="500">
+      <v-dialog v-model="dialog" width="300">
         <v-card>
           <div style="text-align: center">
             <img
               src="../assets/QR-img.png"
               alt="qrcode imgage"
-              width="300"
+              width="200"
               style="margin: 80px 0 80px 0"
             />
           </div>

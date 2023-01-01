@@ -23,7 +23,7 @@ import { getMessaging, getToken } from "firebase/messaging";
 const app = createApp(App);
 app.config.globalProperties.$firebase = initializeApp(firebaseConfig);
 (app.config.globalProperties.user = {
-  name: "상심당",
+  name: "그린나래",
   point: 5500,
   gift: 0,
   coupon: 0,
